@@ -1,0 +1,68 @@
+# Node modules and dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build directories
+dist/
+build/
+
+# Temporary files and directories
+tmp/
+temp/
+.cache/
+
+# Debugger settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Babel / Webpack / Rollup / Parcel Cache
+.babelrc
+.eslintcache
+.parcel-cache/
+.rollup.cache
+webpack-cache/
+
+# Test coverage
+coverage/
+
+# Jest snapshot testing
+*.snap
+
+# Compiled typescript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Ignore src file specific builds (optional, if you generate builds within src)
+src/dist/
+src/build/
+
+# Ignore IDE config files
+/.vscode/
+/.idea/
+
+# Ignore editor or OS specific settings
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
