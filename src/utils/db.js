@@ -23,9 +23,6 @@ require("dotenv").config();
     return db;
   };
 
-
-
-
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 
 
